@@ -22,7 +22,7 @@ const sendverifyMail = async(name,email,user_id)=>{
             requireTLS:true,
             auth:{
                 user:config.emailUser,
-                // pass:'hbqj lkmp nlon iihf',
+                // pass:'key',
                 pass:config.emailPassword,
             }
           });
@@ -239,7 +239,7 @@ const sendresetpasswordMail = async(name,email,token)=>{
             requireTLS:true,
             auth:{
                 user:config.emailUser,
-                // pass:'hbqj lkmp nlon iihf',
+                // pass:'key',
                 pass:config.emailPassword,
             }
           });
